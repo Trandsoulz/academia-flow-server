@@ -37,7 +37,7 @@ app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
 app.get('/', async (req: Request, res: Response, next: NextFunction) => {
   res.status(200).send({
     status: 'success',
-    message: 'Api is live',
+    message: 'Api for JMS is live',
   });
 });
 
